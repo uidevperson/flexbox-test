@@ -7,10 +7,16 @@ import "./App.css";
 
 const App = () => (
   <div class="flex-container">
-    <div style={{flexGrow: 1}}>1</div>
-    <div style={{flexGrow: 1}}>2</div>
-    <div style={{flexGrow: 2}}>3</div>
-    <div style={{flexGrow: 3}}>4</div>
+    <div>1</div>
+    <div>2</div>
+    <div style={{flexShrink: 0}}>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
   </div>
 
 )
