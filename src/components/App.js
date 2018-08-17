@@ -8,7 +8,7 @@ import "./App.css";
 const App = () => (
   <div className="flex-container">
   <div>1</div>
-  {/* <div>2</div>
+  <div>2</div>
   <div>3</div>  
   <div>4</div>
   <div>5</div>
@@ -18,7 +18,7 @@ const App = () => (
   <div>9</div>  
   <div>10</div>
   <div>11</div>
-  <div>12</div>   */}
+  <div>12</div>  
 </div>
 )
 
