@@ -6,20 +6,13 @@ import VisibleTodoList from '../containers/VisibleTodoList'
 import "./App.css";
 
 const App = () => (
-  <div className="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>  
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>  
-  <div>10</div>
-  <div>11</div>
-  <div>12</div>  
-</div>
+  <div class="flex-container">
+    <div style={{order: 3}}>1</div>
+    <div style={{order: 4}}>2</div>
+    <div style={{order: 1}}>3</div>
+    <div style={{order: 2}}>4</div>
+  </div>
+
 )
 
 export default App
