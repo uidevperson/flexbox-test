@@ -16,8 +16,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 /* Colours for each box */
-.box1 { background:#1abc9c;}
-.box2 { background:#3498db;}
+.box1 { background:#1abc9c; height: calc(100vh - 20px); width:30vw;}
+.box2 { background:#3498db; height: calc(100vh - 20px); width: 70vw;}
 .box3 { background:#9b59b6;}
 .box4 { background:#34495e;}
 .box5 { background:#f1c40f;}
@@ -33,4 +33,5 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border:10px solid goldenrod;
   height:100vh;
+  flex-direction: row;
 }
